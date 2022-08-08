@@ -1,0 +1,341 @@
+.App {
+  font-family: sans-serif;
+  font-size: 21px;
+}
+
+/*------- Reusable CSS ------- */
+/* To set dispaly property of any element to flex */
+.displayFlex {
+  display: flex;
+}
+.setLineHeight {
+  line-height: 25px;
+}
+
+#header {
+  display: flex;
+  border: 1px solid white;
+  background-color: whitesmoke;
+  margin-bottom: 40px;
+  height: 90px;
+  font-size: 25px;
+}
+
+#headerLogo {
+  background-color: maroon;
+  color: white;
+  margin: 0px;
+  width: 7%;
+  font-size: 40px;
+  padding: 7px 65px;
+}
+
+.headertextAlignment {
+  padding: 10px 25px;
+}
+
+p {
+  margin: 10px 40px;
+}
+
+.selectAlignment {
+  border-radius: 2px;
+  padding-top: 5px;
+  margin-left: 280px;
+  margin-top: 1px;
+}
+
+select {
+  height: 42px;
+  padding: 5px 19px;
+  margin-top: 1px;
+  border: 1px solid white;
+}
+
+#country {
+  border-right: 4px solid whitesmoke;
+}
+
+#searchIcon {
+  background-color: maroon;
+  color: white;
+  padding: 2px;
+  width: 60px;
+  height: 40px;
+  margin-top: 2px;
+}
+
+#headerWhishlistIcon {
+  margin-top: 5px;
+  margin-left: 45px;
+}
+
+#profileIcon {
+  margin-left: 25px;
+  margin-top: 5px;
+}
+
+/* Home page */
+h5 {
+  margin-left: 60px;
+  margin-right: 10%;
+  font-weight: bold;
+}
+#sort {
+  margin-left: 50%;
+  margin-top: 2px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Filters section */
+.filters {
+  border: 3px solid silver;
+  border-radius: 10px;
+  width: 300px;
+  margin: 10px 50px 15px 45px;
+  padding: 15px;
+  padding-bottom: 50px;
+}
+.filtersHeadingAlignment {
+  margin: 0px;
+  color: rgb(104, 103, 103);
+}
+
+/* Up Arrow Alignment */
+.uparrow {
+  margin-left: 100px;
+  color: silver;
+}
+.marginAlignment {
+  margin-left: 40px;
+  color: silver;
+}
+.testscoreUparrow {
+  margin-left: 110px;
+  color: silver;
+}
+.programDurationUparrow {
+  margin-left: 55px;
+  color: silver;
+}
+.coursefeeUparrow {
+  margin-left: 110px;
+  color: silver;
+}
+/* Checkboxs in filter section */
+input[type="checkbox"] {
+  width: 20px;
+  height: 18px;
+  margin-left: 10px;
+}
+
+.rangeValue {
+  width: 90px;
+  height: 30px;
+  margin: 1px 5px 10px;
+  border: 3px solid silver;
+  border-radius: 5px;
+  padding: 15px 5px;
+}
+
+.scoreDisplay1 {
+  margin-right: 53px;
+}
+
+input[type="range"] {
+  margin-bottom: 20px;
+  width: 220px;
+  margin-left: 15px;
+}
+/* Course Fee section in filters Section */
+.courseFee {
+  width: 100px;
+  margin: 10px;
+  border: 3px solid silver;
+  border-radius: 5px;
+  padding: 2px;
+  margin-bottom: 20px;
+}
+.courseFeeSelected {
+  margin-right: 33px;
+}
+
+/* Individual college details */
+.collegeList {
+  border: 2px solid silver;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 1558px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.firstrowAlignment {
+  margin-bottom: 10px;
+}
+
+/* 1st Row of college Details */
+.collegeRank {
+  background-color: yellow;
+  margin-left: 10px;
+  margin-right: 3px;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+#partner {
+  background-color: whitesmoke;
+  padding: 10px 45px;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+.courseName {
+  font-size: 28px;
+  margin-left: 70px;
+}
+
+.universityName {
+  color: rgb(173, 5, 5);
+  font-weight: bold;
+  font-size: 17px;
+}
+
+/* Sub details of each individual details of college */
+.subDetails {
+  font-size: 16px;
+  color: silver;
+}
+/* Add to Wishlist icon */
+.addtoWishlist {
+  margin-top: 11px;
+  margin-left: 40%;
+}
+
+/* 2nd row of college details */
+.collegedetailsSecondRow {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.universityLogo {
+  width: 350px;
+  height: 60px;
+  margin: 10px 10px 25px;
+  padding: 0;
+}
+.secondrowAlignment {
+  margin-left: 90px;
+}
+.secondrowText {
+  margin-top: 20px;
+}
+
+/* 3rd Row of college details */
+button {
+  padding: 1px 20px;
+  background-color: white;
+  color: rgb(126, 121, 121);
+  border: 3px solid silver;
+  border-radius: 9px;
+  margin: 5px 15px;
+}
+
+.examScore {
+  color: rgb(173, 5, 5);
+  margin: 5px;
+}
+
+.checkIcon {
+  margin-left: 315px;
+  margin-top: 8px;
+}
+
+.compareButton {
+  margin-left: 500px;
+  background-color: whitesmoke;
+}
+
+.applyButton {
+  background-color: rgb(173, 5, 5);
+  color: white;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+/* 2nd college in colleges List */
+/* 1st row of second college details */
+.collegeCourse {
+  margin-left: 340px;
+}
+.whishlistIcon {
+  margin-left: 34.4%;
+}
+.secondUniversityLogo {
+  width: 260px;
+  height: 100px;
+  margin-right: 105px;
+}
+.compare {
+  margin-left: 370px;
+}
+
+/* 3rd college in college list */
+/* 1st row */
+.thirdwhishlistIcon {
+  margin-left: 19%;
+}
+/* 3rd Row */
+.thirdcollegecompare {
+  margin-left: 390px;
+}
+
+/* 4th college in college list */
+/* 1st Row */
+.lastrow {
+  margin-bottom: 50px;
+}
+.fourthwhishlistIcon {
+  margin-left: 24%;
+}
+
+/* Footer */
+.footer {
+  background-color: rgba(243, 243, 243, 0.6);
+  padding: 65px 75px 20px;
+}
+.sideHeadings {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+}
+#footerLogo {
+  margin-top: 20px;
+}
+#addressBlock {
+  margin-left: 180px;
+}
+.footerSubDetails {
+  color: silver;
+  font-size: 16px;
+}
+#socialMediaLinks {
+  margin-left: 130px;
+}
+.socialMediaLogos {
+  display: block;
+  margin-bottom: 15px;
+}
+.additionalLinks {
+  margin-top: 1px;
+  margin-right: 50px;
+}
+.homeLink {
+  margin-left: 100px;
+}
+#copyright {
+  color: silver;
+  font-size: 14px;
+}
+.countryLogo {
+  width: 30px;
+}
